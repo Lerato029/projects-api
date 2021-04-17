@@ -18,7 +18,7 @@
 ## `Installation`
 
 Open the projects folder through VS Code and open the terminal and type: "npm install" and once the node-modules have been installed type npm start to run the server.
-You will notice a message wriiten on the terminal with the link to where the server is running. By clicking on the ![link](http://localhost:8080/api) esssentially you'll be making the GET HTTP request to be able to read the contents in the projects JSON file.
+You will notice a message wriiten on the terminal with the link to where the server is running. By clicking on the [local host link](http://localhost:8080/api) esssentially you'll be making the GET HTTP request to be able to read the contents in the projects JSON file.
 ![step0 installation](https://user-images.githubusercontent.com/79574031/115109038-d9427a00-9f73-11eb-9cc5-49ec7a5aeacc.PNG)
 
 
