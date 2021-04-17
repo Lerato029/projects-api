@@ -1,96 +1,84 @@
-# React Memory Game
-### The Emoji Memory Game 
+# Restful Api
+### Projects
 
-**This project was created using the Create React App. It is a good reference for learning how to manage state and using the React Router.**
+**This project was created with Node.js and Express. It is a great reference for anyone who wishes to understand the basics in testing APIs through Postman.**
 
 ## `Table of Contents`  
 
 [Installation](#installation)  
-[Viewing Project](#view)  
-[Game Objective](#game)  
+[HTTP Requests With Postman](#crud)  
+[Create](#create)  
+[Read](#read)  
+[Update](#update)  
+[Delete](#delete)  
 [Credits](#credits)  
 
 <a name="installation"/>  
 
 ## `Installation`
 
-To install this project navigate the download "code" button as shown in the screenshot below and download the zip folder.
-![image](https://user-images.githubusercontent.com/79574031/113320208-8a110e00-9312-11eb-81fa-3b903f1a4574.png)
+Open the projects folder through VS Code and open the terminal and type: "npm install" and once the node-modules have been installed type npm start to run the server.
+You will notice a message wriiten on the terminal with the link to where the server is running. By clicking on the ![link](http://localhost:8080/api) esssentially you'll be making the GET HTTP request to be able to read the contents in the projects JSON file.
+![step0 installation](https://user-images.githubusercontent.com/79574031/115109038-d9427a00-9f73-11eb-9cc5-49ec7a5aeacc.PNG)
 
 
-Next, all you need to do is extract the files from the zip file...
-![image](https://user-images.githubusercontent.com/79574031/113320731-220ef780-9313-11eb-9808-d3947feb47dd.png)
+<a name="crud"/>
+
+## `HTTP Requests With Postman`
+
+Open postman and click on the create new link.
+![step1](https://user-images.githubusercontent.com/79574031/115109269-00e61200-9f75-11eb-849d-c76ea772c594.PNG)
 
 
-
-Then, right click on the memory-game-master folder you have just extracted and open it through VS Code
-![image](https://user-images.githubusercontent.com/79574031/113320960-669a9300-9313-11eb-95c0-f79cc4692617.png)
-
+Then open a new tab to make any HTTP Requests. We will be using the POST, GET, PUT and DELETE request to test the CRUD functionality of the Restful API.
+![step2](https://user-images.githubusercontent.com/79574031/115109273-080d2000-9f75-11eb-9010-6f4bfc2e7fe0.PNG)
 
 
-And Voilà! All the resources are ready to be edited or read :bowtie:
-![image](https://user-images.githubusercontent.com/79574031/113321184-a19cc680-9313-11eb-8b8c-f2bd3ed4e5c9.png)
+<a name="create"/>
 
+## `CREATE VIA POST`
 
+To make a POST request to add a new project to the JSON file change the request type to POST on the left as shown below.
+![image](https://user-images.githubusercontent.com/79574031/115109546-a8b00f80-9f76-11eb-8ad6-8fe2b8ef862e.png)
 
+Then type in the url and add the key value pairs for the new project as shown in the image below.
+![step3 CREATE VIA PUT request](https://user-images.githubusercontent.com/79574031/115109580-f3318c00-9f76-11eb-802c-a8c60a75ab40.PNG)
 
-
-<a name="view"/>
-
-## `Viewing Project`
-
-
-To view the website close project on VsCode, open your terminal and make sure you're on the same directory as where the file is stored.
-![image](https://user-images.githubusercontent.com/79574031/113322070-867e8680-9314-11eb-9adc-77555f372c65.png)
-
-
-
-To navigate to the file simply type in cd followed by the path to your file.
-![image](https://user-images.githubusercontent.com/79574031/113322197-aca42680-9314-11eb-8848-6eeb87ca4cb2.png)
+The Result will be as shown below when you click on send and the request is sucessful
+![step3 CREATE VIA PUT request Result](https://user-images.githubusercontent.com/79574031/115109607-13f9e180-9f77-11eb-82d4-41cae03fed78.PNG)
 
 
 
+<a name="read"/>
 
-Type: npm install - this might take a while....
-![image](https://user-images.githubusercontent.com/79574031/113322242-bd549c80-9314-11eb-9803-80a967f51658.png)
-![image](https://user-images.githubusercontent.com/79574031/113322449-fc82ed80-9314-11eb-801b-3f4c3c0471ac.png)
+## `READ VIA GET`
 
-
-
-A few moments later... When it's done running type npm start and you project will run 
-on your brownser or you can open [http://localhost:3000](http://localhost:3000) to view it in the browser manually.
-![image](https://user-images.githubusercontent.com/79574031/113322777-68655600-9315-11eb-9985-94353525e409.png)
+To make a GET request change the request type to GET on the left as shown below. Then type in the url as shown in the image below.
+![step4 READ VIA GET request](https://user-images.githubusercontent.com/79574031/115109700-b023e880-9f77-11eb-8acb-4bbb9e674bbb.PNG)
 
 
+The Result will be as shown below when you click on send and the request is sucessful
+
+
+<a name="update"/>
+
+## `UPDATE VIA PUT`
+
+To make a PUT request change the request type to PUT on the left as shown below. Then type in the url and add the key value pairs for the project you wish to update as shown in the image below.
+![step5 UPDATE VIA PUT request](https://user-images.githubusercontent.com/79574031/115109704-b6b26000-9f77-11eb-995b-f702d9c048c1.PNG)
 
 
 
+The Result will be as shown below when you click on send and the request is sucessful
+![step5 Result](https://user-images.githubusercontent.com/79574031/115109711-bf0a9b00-9f77-11eb-8477-acd1c94d27d5.PNG)
 
-<a name="game"/>
+<a name="delete"/>
 
-## `Game Objective`
+## `DELETE VIA DELETE`
 
-#### The Home Page
-The home page welcomes the user and allows you to play the game or navigate to the Info page where you learn more about the game by 
-clicking on one of the buttons.
-![image](https://user-images.githubusercontent.com/79574031/113322905-92b71380-9315-11eb-858f-9370e183ce91.png)
+To make a DELETE request change the request type to DELETE on the left as shown below. Then type in the url and add the key value pairs for the new project as shown in the image below. 
+![step6 DELETE VIA DELETE request](https://user-images.githubusercontent.com/79574031/115109719-c5007c00-9f77-11eb-88e8-972b08832229.PNG)
 
-#### The Info Page
-Here you learn more about how the game works and how to win or lose.
-![image](https://user-images.githubusercontent.com/79574031/113323306-196bf080-9316-11eb-9ba5-1a2c92e0c79c.png)
-
-
-When you click the play button on the info page or the home page the the
-game starts and the count down starts. The main objective is to click on
-the cards that match to reveal the cards. You will have 100 seconds to reveal
-all the cards on the page.
-![game](https://user-images.githubusercontent.com/79574031/113316194-5a600700-930e-11eb-85df-336f85a9cc98.png)
-
-![youWin](https://user-images.githubusercontent.com/79574031/113317150-60a2b300-930f-11eb-9cf6-8142d3f3fcd5.JPG)
-If you reveal all the cards before the countdown timer reaches 0 then
-you win and the alert pops up! However if you fail to match the cards within the time allocated you lose the game
-and another alert pops up
-![youLose](https://user-images.githubusercontent.com/79574031/113317172-64ced080-930f-11eb-8aed-d991d891f576.JPG)
 
 <a name="credits"/>
 
@@ -102,4 +90,4 @@ and another alert pops up
 
 
 
-http://localhost:8080/api
+
