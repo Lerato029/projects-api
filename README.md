@@ -27,10 +27,12 @@ You will notice a message wriiten on the terminal with the link to where the ser
 ## `HTTP Requests With Postman`
 
 Open postman and click on the create new link.
+
 ![step1](https://user-images.githubusercontent.com/79574031/115109269-00e61200-9f75-11eb-849d-c76ea772c594.PNG)
 
 
 Then open a new tab to make any HTTP Requests. We will be using the POST, GET, PUT and DELETE request to test the CRUD functionality of the Restful API.
+
 ![step2](https://user-images.githubusercontent.com/79574031/115109273-080d2000-9f75-11eb-9010-6f4bfc2e7fe0.PNG)
 
 
@@ -39,12 +41,15 @@ Then open a new tab to make any HTTP Requests. We will be using the POST, GET, P
 ## `CREATE VIA POST`
 
 To make a POST request to add a new project to the JSON file change the request type to POST on the left as shown below.
+
 ![image](https://user-images.githubusercontent.com/79574031/115109546-a8b00f80-9f76-11eb-8ad6-8fe2b8ef862e.png)
 
 Then type in the url and add the key value pairs for the new project as shown in the image below.
+
 ![step3 CREATE VIA PUT request](https://user-images.githubusercontent.com/79574031/115109580-f3318c00-9f76-11eb-802c-a8c60a75ab40.PNG)
 
-The Result will be as shown below when you click on send and the request is sucessful
+The Result will be as shown below when you click on send and the request is sucessful.
+
 ![step3 CREATE VIA PUT request Result](https://user-images.githubusercontent.com/79574031/115109607-13f9e180-9f77-11eb-82d4-41cae03fed78.PNG)
 
 
@@ -54,10 +59,8 @@ The Result will be as shown below when you click on send and the request is suce
 ## `READ VIA GET`
 
 To make a GET request change the request type to GET on the left as shown below. Then type in the url as shown in the image below.
+
 ![step4 READ VIA GET request](https://user-images.githubusercontent.com/79574031/115109700-b023e880-9f77-11eb-8acb-4bbb9e674bbb.PNG)
-
-
-The Result will be as shown below when you click on send and the request is sucessful
 
 
 <a name="update"/>
@@ -65,11 +68,13 @@ The Result will be as shown below when you click on send and the request is suce
 ## `UPDATE VIA PUT`
 
 To make a PUT request change the request type to PUT on the left as shown below. Then type in the url and add the key value pairs for the project you wish to update as shown in the image below.
+
 ![step5 UPDATE VIA PUT request](https://user-images.githubusercontent.com/79574031/115109704-b6b26000-9f77-11eb-995b-f702d9c048c1.PNG)
 
 
 
-The Result will be as shown below when you click on send and the request is sucessful
+The Result will be as shown below when you click on send and the request is sucessful.
+
 ![step5 Result](https://user-images.githubusercontent.com/79574031/115109711-bf0a9b00-9f77-11eb-8477-acd1c94d27d5.PNG)
 
 <a name="delete"/>
@@ -77,6 +82,7 @@ The Result will be as shown below when you click on send and the request is suce
 ## `DELETE VIA DELETE`
 
 To make a DELETE request change the request type to DELETE on the left as shown below. Then type in the url and add the key value pairs for the new project as shown in the image below. 
+
 ![step6 DELETE VIA DELETE request](https://user-images.githubusercontent.com/79574031/115109719-c5007c00-9f77-11eb-88e8-972b08832229.PNG)
 
 
@@ -85,7 +91,7 @@ To make a DELETE request change the request type to DELETE on the left as shown 
 ## `Credits`
 
  * Author: [Lerato Mokgwabona](https://github.com/Lerato029)
- * This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app)
+
 
 
 
