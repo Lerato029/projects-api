@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "title": "React Memory Game",
+    "description": "Memory game created using Create React app.",
+    "URL": "https://emoji-memory-game.herokuapp.com//"
+  },
+  {
+    "id": 2,
+    "title": "Froots",
+    "description": "Online store created with HTML, CSS and JavaScript.",
+    "URL": "https://lerato029.github.io/frootsStore/index.html"
+  }
+]
